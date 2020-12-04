@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cousins Portfolio</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		html {
+			background: rgba(0,0,0, 0.85);
+		}
+		h1 {
+			
+			font-weight: bold;
+			font-variant: small-caps;
+			font-size: 30px;
+		}
+		h2 {
+			font-variant: small-caps;
+			font-weight: bold;
+			font-size: 30px;
+		}
+		.profilePic {
+			height: 150px;
+			width: 150px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 50%;
+			background: white;
+        	padding: 3px;
+			border: 1px;
+		}
+		.profilePic > img {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+		}
+		.highlight {
+			background-image: url("coolBlue.jpg");
+			text-align: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+ 			background-attachment: fixed;
+ 			padding-top: 3rem;
+ 			padding-bottom: 3rem;
+		}
+		.glassy   {
+		    background: inherit;
+		    width: 70%;
+		    height: 400px;
+		    position: relative;
+		    margin: auto;
+		    border-radius: 1rem;
+		    text-align: center;
+		    padding: 1rem;
+		    color: white;
+		    overflow: hidden;
+		    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+		    z-index: 1;
+		}
+		.glassy:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			filter: blur(10px);
+			background: inherit;
+			margin: -20px;
+			box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+			z-index: -1;
+		}
+		ul {
+			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		li {
+			float: left;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		li a:hover {
+  			background-color: #111;
+		}
+		body {
+			background-color: #141415ad;
+			color: white;
+		}
+		.headerBlock {
+			margin: auto;
+    		text-align: center;
+    		color: #f8f6f6;
+    		background: #333;
+    		max-width: 1000px;
+    		border-radius: 7px;
+		}
+		.blockContainer {
+			max-width: 1000px;
+			text-align: center;
+			margin: auto;
+		}
+		table {
+			text-align: center;
+			margin: auto;
+		}
+		.skills {
+    		background: #2164fa;
+    		display: flex;
+    		color: white;
+		    text-align: center;
+		    justify-content: center;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    border-radius: 7px;
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    text-align: center;
+		    justify-content: center;
+		    font-size: 20px;
+		    padding: 1rem;
+		}
+		h4 {
+			text-align: center;
+		}
+		.skillContainer {
+			min-width: 20rem;
+    		min-height: 5rem;
+    		display: inline-flex;
+    		position: relative;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="highlight">
+		<div class="glassy">
+		<span class="profilePic">
+			<img src="ProfilePic.jpg" />
+		</span>
+  		<h1>Jessica Cousins</h1>      
+  		<h4>Email: cousinsj339@gmail.com</h4>
+  		<h4>Mobile: (309) 737-6179</h4>
+  		<h4>Mailing Address: 701 N C Street Indianola, IA 50125 #3235</h4>
+		</div>
+	</div>
+	<ul>
+  		<li><a href="https://www.dropbox.com/scl/fi/8q86nczhu5oi16qi1w0y7/Jessica_Cousins_Resume-Copy.docx?dl=0">Resume</a></li>
+  		<li><a href="https://www.linkedin.com/in/jessica-cousins-a835461bb/">LinkedIn</a></li>
+  		<li><a href="https://github.com/JessCousins">GitHub</a></li>
+  	</ul>
+  	<div class="headerBlock">
+  		<h2>Objective</h2>
+  	</div>
+  	<div class="blockContainer">
+	<h4>Motivated and goal-oriented Interactive Media and Religion double major at Simpson College seeking to leverage X skills to succeed as an intern for XYZ company. Adaptable and experienced in different areas as an interdepartmental major that excels in written and verbal communication.</h4>
+	</div>
+  	<div class="headerBlock">
+  		<h2>Education</h2>
+  	</div>
+  	<div class="blockContainer">
+  	<h4>Bachelor of Arts: Interactive Media & Religion</h4>
+  	<h4>Simpson College - Indianola, IA (Expected to Graduate May 2022)</h4>
+  	<h4>Revelant Coursework in Python, HTML, CSS, Graphic Design, and Written Composition</h4>
+  	</div>
+  	<div class="headerBlock">
+  		<h2>Skills</h2>
+  	</div>
+  	<div class="blockContainer">
+  	<div class="skillContainer">
+  		<span class="skills">
+  			HTML
+  		</span>
+  	</div>
+ 	<div class="skillContainer">
+ 		<span class="skills">
+  			CSS
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Python
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Problem-Solving
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Bootstrap
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Adobe Illustrator
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Adobe Photoshop
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Collaboration
+  		</span>
+  	</div>
+  	<div class="skillContainer">
+  		<span class="skills">
+  			Adobe InDesign
+  		</span>
+  	</div>
+  	<div class="headerBlock">
+  		<h2>Work History</h2>
+  	</div>
+  	<div class="blockContainer">
+  		<h4>Sales Associate : Bath & Body Works, Altoona, IA : Aug. 2020 - Current</h4>
+  		<h4>Crew Member : ColdStone Creamery, West Des Moines, IA : May 2019 - Oct. 2020</h4>
+  		<h4>Professor's Assistant : Simpson College, Indianola, IA : Aug. 2018 - Dec. 2018</h4>
+  	</div>
+  <div class="headerBlock">
+  	<h2>Volunteer Experience</h2>
+  </div>
+  <div class="blockContainer">
+  <h4>Simpson College Youth Academy 2017/2018 (Leadership and community service program in Indianola, IA)</h4>
+  <h4>Freeport, IL Community Foundation Youth Advisory Council 2017 (Raised money for local grants)</h4>
+  <h4>Organized, promoted, and performed Taizé church service for Christmas 2017 and Easter 2018 as final project for Simpson Youth Academy</h4> 
+  <h4>Active member of Simpson Symphonic Band as of 2018</h4>
+  <h4>Member of Freeport Community College Symphony Orchestra 2014-2018</h4>
+</div>
+</body>
+</html>
